@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD-Armee_ottomane.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD-Armee_ottomane.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+         <!-- Titre et responsabilités de l'encodage-->
+         <titleStmt>
+            <title>Lexique de l'armée ottomane</title>
+            <respStmt>
+               <resp>Encodage par</resp>
+               <persName>Kutay Sefil</persName>
+            </respStmt>
+         </titleStmt>
+         
+         <!-- Informations sur la publication de l'encodage -->
+         <publicationStmt>
+            <publisher>École nationale des Chartes</publisher>
+            <pubPlace>Paris, France</pubPlace>
+            <date>2024</date>
+         </publicationStmt>
+         
+         <!-- Informations sur la source de l'encodage -->
+         <sourceDesc>
+             <bibl>
+                <title>Dictionnaire universel françois et latin, vulgairement appelé Dictionnaire de Trévoux</title>
+                <publisher>Compagnie des libraires associés</publisher>
+                <pubPlace>Paris, France</pubPlace>
+                <date>1771</date>
+                <distributor>Bibliothèque nationale de France</distributor>
+                <availability>
+                   <licence target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica">
+                      Domaine public
+                   </licence>
+                </availability>
+             </bibl>
+         </sourceDesc>
+         
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <!-- Liste des définitions -->
+         
+         <entry n="1">
+            <form>
+               <orth n="1">AGA</orth>
+               <orth n="2">AGHA</orth>
+            </form>
+            <gramGrp>
+               <pos>s.</pos>
+               <gen>m.</gen>
+            </gramGrp>
+            <sense>
+               <usg type="dom">
+                  Terme d’Histoire &amp; de Relation
+               </usg>
+               <def>
+                  Ce mot signifie dans la langue des Mogols, &amp; dans celle des Khovarezmiens, un Homme puissant, un Seigneur, &amp; un Commandant. Les Turcs se servent de ce mot pour signifier absolument un Commandant. Ainsi l’Aga des Janissaires est leur Colonel, &amp; le Capi Aga est le Capitaine de la porte du Sérail. On donne par civilité à quelques personnes le titre d’Aga, quoiqu’ils n’aient aucune charge. Quand ce mot est en régime, c’est-à-dire, quand il y a un autre substantif après lui qui en dépend, &amp; que dans nos langues occidentales nous mettrions au génitif, on dit Agassi, &amp; non pas Aga. Aussi Capi Agassi, signifie l’Aga ou le Gouverneur des Pages ; Spahilar Agassi, l’Aga, ou le Général de la Cavalerie. Du Loir écrit Agha. Quatre principaux Eunuques, qui portent tous la qualité d’Agha, sont toujours auprès du Grand Seigneur. Le premier d’entre eux est nommé Capi Agha. <bibl>Id. p. 89.</bibl> Le second est le Khazinedar Bachi ; le troisième est le Kilerdgi Bachi ; ces trois Aghas suivent par-tout le Grand-Seigneur, mais le quatrième ne sort jamais de Constantinople, &amp; pour cette raison il s’appelle Seray Agassi, l’Agha du Sérail. <bibl>Id. p. 90.</bibl> 
+               </def>
+            </sense>
+         </entry>
+         
+         <entry n="2">
+            <form>
+               <orth n="1">GEBEGIS</orth>
+               <orth n="2">GEBEGYS</orth>
+            </form>
+            <sense>
+               <usg type="dom">
+                  Terme de Relation
+               </usg>
+               <def>
+                  Les Turcs donnent ce nom à ceux qui sont chargés de polir les armes &amp; de les distribuer. Ils sont censés du corps de l'infanterie. M. de Tournefort dit que les gebegis font les servans de l'artillerie fous les canonniers, L'Auteur des Anecd. de la Maison Ottom. écrit gebeki.
+               </def>
+            </sense>
+         </entry>
+         
+         <entry n="3">
+            <form>
+               <orth>MUSSELINS</orth>
+            </form>
+            <sense>
+               <usg type="dom">
+                  Terme de Relation
+               </usg>
+               <def>
+                  Les Turcs donnent ce nom à des Chrétiens tributaires qui fervent de pionniers &amp; de charpentiers dans leurs armées.
+               </def>
+            </sense>
+         </entry>
+         
+         <entry n="4">
+            <form>
+               <orth>SPAHIS</orth>
+            </form>
+            <gramGrp>
+               <pos>s.</pos>
+               <gen>m.</gen>
+            </gramGrp>
+            <sense>
+               <usg type="dom">
+                  Terme de Relation
+               </usg>
+               <def>
+                  C’est un Cavalier de l’armée Ottomane, qui est ordinairement levé en Asie. Spahisus, Eques Turcicus. Les principales forces du Grand-Seigneur sont composées de Janissaires, qui font la meilleure partie des gens de pied, &amp; de Spahis qui font les gens de cheval.
+               </def>
+            </sense>
+         </entry>
+         
+         <entry n="5">
+            <form>
+               <orth>TOPTCHI</orth>
+            </form>
+            <gramGrp>
+               <pos>s.</pos>
+               <gen>m.</gen>
+            </gramGrp>
+            <sense>
+               <usg type="dom">
+                  Terme de Relation
+               </usg>
+               <def>
+                  Canonier Turc. Tormentorum bellicorum librator Turcicus, Balistarius apud Turcas. Il y a dans la ville de Candi des Toptchis &amp; Gebegis, c'est-à-dire, Canoniers &amp; autres servans l'artillerie, deux régimens de cinq cens hommes chacun, armés d'un sabre ; d'une demi-pique, &amp; d'une cotte de mâille. <bibl>TOURNEFORT, Voyage, T. I. p. 42.</bibl>
+               </def>
+            </sense>
+         </entry>
+         
+      </body>
+   </text>
+</TEI>
